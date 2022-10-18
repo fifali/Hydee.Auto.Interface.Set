@@ -35,6 +35,7 @@ namespace Hydee.Auto.Interface.Set.DAO
                 {
                     conn.Open();
 
+
                     string strSql = "select * from hawi_sublist order by sort";
 
                     using (OleDbCommand cmd = new OleDbCommand(strSql, conn))
